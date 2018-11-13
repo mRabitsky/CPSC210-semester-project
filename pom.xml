@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>projectw1_team370</groupId>
+  <artifactId>projectw1_team370</artifactId>
+  <version>0.0.4</version>
+  <name>CPSC 210 003 Semester Project</name>
+  <description>Semester-long project for Prof. Mike Feeley. Consult the README for more information.</description>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>lib</module>
+  	<module>client</module>
+  </modules>
+  <properties>
+  	<maven.compiler.source>10</maven.compiler.source>
+  	<maven.compiler.target>10</maven.compiler.target>
+  </properties>
+</project>

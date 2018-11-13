@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>projectw1_team370</groupId>
+    <artifactId>projectw1_team370</artifactId>
+    <version>0.0.4</version>
+  </parent>
+  <artifactId>client</artifactId>
+  <name>client</name>
+  <description>Client interface for the project, as well as a CLI and GUI implementation thereof.</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>info.picocli</groupId>
+  		<artifactId>picocli</artifactId>
+  		<version>3.5.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>projectw1_team370</groupId>
+  		<artifactId>lib</artifactId>
+  		<version>0.0.4</version>
+  	</dependency>
+  </dependencies>
+</project>
